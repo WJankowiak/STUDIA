@@ -1,35 +1,45 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="Ścieżka glosu_data" version="1.3.0" audacityversion="2.1.3" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="13.8158730159" zoom="86.1328125000" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
-	<tags/>
-	<wavetrack name="Audio Track" channel="0" linked="1" mute="0" solo="0" height="77" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
-		<waveclip offset="0.00000000">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Ścieżka glosu_data" version="1.3.0" audacityversion="2.1.3" sel0="1.5241269841" sel1="8.7803628118" vpos="0" h="0.0000000000" zoom="53.7604033291" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="TRACKNUMBER" value="1"/>
+		<tag name="TITLE" value="DARK SOULS SOUNDTRACK Bell Gargoyle 423 (HQ)"/>
+		<tag name="COMMENTS" value="www.dvdvideosoft.com"/>
+	</tags>
+	<wavetrack name="Audio Track" channel="0" linked="1" mute="0" solo="0" height="77" minimized="0" isSelected="1" rate="44100" gain="1.584893" pan="0.0">
+		<waveclip offset="1.52412698">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="320000">
 				<waveblock start="0">
-					<simpleblockfile filename="e00004dd.au" len="262144" min="-0.624207" max="0.355408" rms="0.027906"/>
+					<simpleblockfile filename="e0000ff5.au" len="149718" min="-0.30777" max="0.350433" rms="0.020698"/>
 				</waveblock>
-				<waveblock start="262144">
-					<simpleblockfile filename="e0000c68.au" len="57856" min="-0.194489" max="0.157867" rms="0.030914"/>
+				<waveblock start="149718">
+					<simpleblockfile filename="e00010ac.au" len="148872" min="-0.489153" max="0.355408" rms="0.026726"/>
+				</waveblock>
+				<waveblock start="298590">
+					<simpleblockfile filename="e0000f3c.au" len="21410" min="-0.017264" max="0.011121" rms="0.002262"/>
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="Audio Track" channel="1" linked="0" mute="0" solo="0" height="77" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
-		<waveclip offset="0.00000000">
+	<wavetrack name="Audio Track" channel="1" linked="0" mute="0" solo="0" height="77" minimized="0" isSelected="1" rate="44100" gain="1.584893" pan="0.0">
+		<waveclip offset="1.52412698">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="320000">
 				<waveblock start="0">
-					<simpleblockfile filename="e000003d.au" len="262144" min="-0.624237" max="0.355438" rms="0.027906"/>
+					<simpleblockfile filename="e0000878.au" len="149718" min="-0.30777" max="0.350464" rms="0.020698"/>
 				</waveblock>
-				<waveblock start="262144">
-					<simpleblockfile filename="e0000808.au" len="57856" min="-0.194489" max="0.157867" rms="0.030914"/>
+				<waveblock start="149718">
+					<simpleblockfile filename="e0001eda.au" len="148872" min="-0.489158" max="0.355438" rms="0.026726"/>
+				</waveblock>
+				<waveblock start="298590">
+					<simpleblockfile filename="e0000ac9.au" len="21410" min="-0.017261" max="0.011128" rms="0.002262"/>
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="Audio Track" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
-		<waveclip offset="7.25623583">
+	<wavetrack name="Audio Track" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.995262" pan="0.0">
+		<waveclip offset="8.78036281">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="197120">
 				<waveblock start="0">
 					<simpleblockfile filename="e00009f1.au" len="197120" min="-0.363312" max="0.332092" rms="0.016887"/>
@@ -38,8 +48,8 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="Audio Track" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
-		<waveclip offset="7.25623583">
+	<wavetrack name="Audio Track" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.995262" pan="0.0">
+		<waveclip offset="8.78036281">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="197120">
 				<waveblock start="0">
 					<simpleblockfile filename="e0000753.au" len="197120" min="-0.363281" max="0.332062" rms="0.016887"/>
@@ -48,33 +58,159 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="Audio Track" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
-		<waveclip offset="11.72607710">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="642560">
+	<wavetrack name="Audio Track" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="3.548134" pan="0.0">
+		<waveclip offset="23.61148340">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="258466">
 				<waveblock start="0">
-					<simpleblockfile filename="e0000176.au" len="262144" min="-0.61322" max="0.438293" rms="0.036527"/>
+					<simpleblockfile filename="e00016ce.au" len="140194" min="-0.605207" max="0.484673" rms="0.033186"/>
 				</waveblock>
-				<waveblock start="262144">
-					<simpleblockfile filename="e000025b.au" len="262144" min="-0.232758" max="0.186401" rms="0.015913"/>
+				<waveblock start="140194">
+					<simpleblockfile filename="e000168b.au" len="118272" min="-0.292407" max="0.223769" rms="0.032805"/>
 				</waveblock>
-				<waveblock start="524288">
-					<simpleblockfile filename="e0000f59.au" len="118272" min="-0.112457" max="0.08606" rms="0.012617"/>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="15.04145125">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="356278">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000dcf.au" len="233725" min="-0.59796" max="0.437769" rms="0.037874"/>
+				</waveblock>
+				<waveblock start="233725">
+					<simpleblockfile filename="e00009b5.au" len="122553" min="-0.117301" max="0.141078" rms="0.018041"/>
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="Audio Track" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
-		<waveclip offset="11.72607710">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="642560">
+	<wavetrack name="Audio Track" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="3.548134" pan="0.0">
+		<waveclip offset="23.61148340">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="258466">
 				<waveblock start="0">
-					<simpleblockfile filename="e00005d4.au" len="262144" min="-0.61322" max="0.438293" rms="0.036527"/>
+					<simpleblockfile filename="e00013d8.au" len="140194" min="-0.605207" max="0.484594" rms="0.033186"/>
+				</waveblock>
+				<waveblock start="140194">
+					<simpleblockfile filename="e00011b1.au" len="118272" min="-0.292407" max="0.223848" rms="0.032805"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="15.04145125">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="356278">
+				<waveblock start="0">
+					<simpleblockfile filename="e00009e2.au" len="233725" min="-0.597943" max="0.437769" rms="0.037874"/>
+				</waveblock>
+				<waveblock start="233725">
+					<simpleblockfile filename="e0000d53.au" len="122553" min="-0.117297" max="0.141063" rms="0.018041"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Shotgun_Blast-Jim_Rogers-1914772763" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="0.501187" pan="0.0">
+		<waveclip offset="13.08213152">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="86406">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000eed.au" len="86406" min="-0.830017" max="0.891251" rms="0.256434"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Shotgun_Blast-Jim_Rogers-1914772763" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="0.501187" pan="0.0">
+		<waveclip offset="13.08213152">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="86406">
+				<waveblock start="0">
+					<simpleblockfile filename="e00007b8.au" len="86406" min="-0.864031" max="0.84546" rms="0.249181"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Eating Chips-SoundBible.com-792375474" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.73773243">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="34680">
+				<waveblock start="0">
+					<simpleblockfile filename="e00006bf.au" len="34680" min="-0.225159" max="0.203461" rms="0.011045"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Eating Chips-SoundBible.com-792375474" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.73773243">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="34680">
+				<waveblock start="0">
+					<simpleblockfile filename="e00009bc.au" len="34680" min="-0.207062" max="0.204498" rms="0.010348"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="17 Johann Sebastian Bach - Air On The G String,1723" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="0.177828" pan="0.0">
+		<waveclip offset="-0.38104308">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="593726">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000e32.au" len="262144" min="-0.488723" max="0.507188" rms="0.074657"/>
 				</waveblock>
 				<waveblock start="262144">
-					<simpleblockfile filename="e00002a7.au" len="262144" min="-0.232758" max="0.186371" rms="0.015913"/>
+					<simpleblockfile filename="e00004fc.au" len="185395" min="-0.764509" max="0.755556" rms="0.185393"/>
+				</waveblock>
+				<waveblock start="447539">
+					<simpleblockfile filename="e0000b45.au" len="146187" min="-0.537263" max="0.493431" rms="0.104335"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="17 Johann Sebastian Bach - Air On The G String,1723" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="0.177828" pan="0.0">
+		<waveclip offset="-0.38104308">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="593726">
+				<waveblock start="0">
+					<simpleblockfile filename="e00006fd.au" len="262144" min="-0.491322" max="0.48803" rms="0.075255"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0000eae.au" len="185395" min="-0.591668" max="0.559233" rms="0.148489"/>
+				</waveblock>
+				<waveblock start="447539">
+					<simpleblockfile filename="e0000628.au" len="146187" min="-0.357346" max="0.474306" rms="0.082065"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Dark Souls - Bell Gargoyle" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="0.251189" pan="-0.1">
+		<waveclip offset="13.08213152">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="829874">
+				<waveblock start="0">
+					<simpleblockfile filename="e0001f95.au" len="262144" min="-0.981463" max="0.911725" rms="0.166679"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e000149f.au" len="262144" min="-1.091511" max="0.988578" rms="0.203082"/>
 				</waveblock>
 				<waveblock start="524288">
-					<simpleblockfile filename="e0000056.au" len="118272" min="-0.112457" max="0.08609" rms="0.012617"/>
+					<simpleblockfile filename="e000134a.au" len="152793" min="-0.939326" max="0.950307" rms="0.200345"/>
+				</waveblock>
+				<waveblock start="677081">
+					<simpleblockfile filename="e0001d35.au" len="152793" min="-0.824973" max="0.973842" rms="0.163884"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Dark Souls - Bell Gargoyle" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="0.251189" pan="-0.1">
+		<waveclip offset="13.08213152">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="829874">
+				<waveblock start="0">
+					<simpleblockfile filename="e0001385.au" len="262144" min="-0.880146" max="0.964089" rms="0.161048"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0001e65.au" len="262144" min="-1.023458" max="0.853527" rms="0.186986"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e0001520.au" len="152793" min="-0.973212" max="0.935103" rms="0.191134"/>
+				</waveblock>
+				<waveblock start="677081">
+					<simpleblockfile filename="e0001b7f.au" len="152793" min="-0.775862" max="0.760687" rms="0.134378"/>
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>
