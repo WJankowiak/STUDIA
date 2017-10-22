@@ -1,4 +1,5 @@
-#Create database Service;
+Create database Service;
+
 DROP TABLE IF EXISTS Users;
 
 CREATE TABLE  Users
@@ -23,4 +24,7 @@ CREATE TABLE Paintings(
     FOREIGN KEY (SignId) REFERENCES Signs(Id),
     CorrectGuesses INT(10),
     IncorrectGuesses INT(10));
+    
+    
+    
     
